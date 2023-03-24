@@ -1,0 +1,29 @@
+.banner {
+    padding: 10rem 2rem;
+    background-image: url("../images/books_banner1.svg");
+    background-position: center center;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search_input {
+    max-width: 80%;
+    margin: auto;
+}
+
+
+
+@media screen and (min-width:768px){
+.main_section {
+        max-width: 50%;
+        margin: auto;
+    }
+.search_input {
+    max-width: 50%;
+    margin: auto;
+}
+}
+
