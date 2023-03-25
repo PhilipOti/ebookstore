@@ -1,3 +1,8 @@
+
+* {
+    font-family: 'Josefin Slab', serif;
+}
+
 .banner {
     padding: 10rem 2rem;
     background-image: url("../images/books_banner1.svg");
@@ -12,6 +17,10 @@ img {
 .search_input {
     max-width: 80%;
     margin: auto;
+}
+
+.ratingStar {
+    color: #ffd700;
 }
 
 
