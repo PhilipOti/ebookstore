@@ -5,10 +5,10 @@ import SingleBook from './singlebook'
 
 function Bookcatalogue() {
 
-    const [booksCatalogue, setBooksCatalogue] = useState(books)
+    const booksCatalogue = books
     const [currentPage,setCurrentPage] = useState(1)
-    const [booksPerPage,setBooksPerPage] = useState(5)
-    const [loading, setLoading] = useState(true)
+    const booksPerPage = 5
+    const loading = true
 
 
     // get current books

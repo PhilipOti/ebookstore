@@ -19,12 +19,12 @@ export const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
         {pageNumbers.map((number, i) => {
           return (
             <li key={number} className="page-item">
-              <a
+              <button
                 onClick={() => paginateActive(number)}
-                className={`page-link ${active == number && "active"}`}
+                className={`page-link ${active === number && "active"}`}
               >
                 {number}
-              </a>
+              </button>
             </li>
           );
         })}
